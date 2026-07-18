@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Arimo", sans-serif;
+      font-family: "Inter", sans-serif;
+
+/* common button  */
+}
+
+.cmn-btn{
+    background-color: #1d4ed8;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+}
+
+
+/* Navigation Start */
+header{
+    background-color: #ffffff;
+}
+nav {
+    display: flex;
+    justify-content: space-between ;
+    max-width: 1200px;
+    margin: auto;
+    padding: 8px 4px;
+}
+/* Navbar listi */
+.nav-list { 
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 24px;
+    align-items: center;
+}
+.nav-list a{
+    color: #575757FF; 
+    font-size: 16px;
+    text-decoration: none;
+    text-decoration-color: #575757;
+    font-weight: 400;
+
+}
+    
+/* banner section  */
+
+.hero-parent {
+    height: 786px;
+    max-width: 1551px;
+    margin: auto;
+    background-image: url(./assets/banner.jpg);
+    position:relative;
+    background-size: cover;
+    
+}
+
+/* Overlay */
+.hero-overlay{
+    color: #ffffff;
+    width: 100%;
+    height: 1vh;
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+    padding-top: 136px;
+}
+.hero-overlay h1{
+    font-size: 80px;
+    margin-bottom: 16px;
+}
+.hero-overlay pre{
+    font-size: 22px;
+    letter-spacing: 0px;
+    margin-bottom: 278px;
+}
+.hero-cmn-btn {
+    margin-bottom: 79px;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 50px;
+}
+/* Speaker's Start */
+
+/* Speaker section  */
+.speaker-sec{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.Meet{
+    text-align: center;
+    font-size: 65px;
+    padding-top: 80px;
+    margin-bottom: 56px;
+    font-weight: 700;
+    color: #000102FF;
+}
+/* Applying Grid in Speakers card  */
+.speakers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    gap: 32px;
+}
+/* Card secton outlook */
+
+.card{
+   /*  display: flex;
+    flex-direction: column; */
+    border-radius: 12px;
+    overflow: hidden; 
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5e7ebFF;
+    
+}
+/* card image  */
+.card img{
+    width: 100%;
+    height: 324px;
+}
+.speaker-conent{
+    padding: 24px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sub{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .3px;
+    color: #2563ebFF;
+    font-family: "Inter";
+}
+
+.speaker-conent h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.desig{
+    font-size: 14PX;
+}
+/* Speaker End  */
+
+/* Pricing */
+.pricing{
+    padding: 43px 60px 80px ;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.p-init h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #0d1b2aFF;
+    margin-bottom: 12px;
+}
+.p-init p{
+    color: #575757FF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* Pricing container section */
+.price-container{
+    padding-top: 46px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+/* Whole card style  */
+.price-card{
+    height: auto;
+    width: 370.67px;
+    padding: 32px;
+    border:1px solid #e5e7ebFF;
+    border-radius: 12px;
+    text-align: left;
+}
+/*  */
+.price-card h4{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: .32px;
+    color: #888888FF;
+    text-transform: uppercase;
+}
+.price-card h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1;
+    color: #0d1b2aFF;
+}
+.price-card p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #888888FF;
+    margin-bottom: 20px;
+}
+
+/* list dots color  */
+.price-card ul li::marker{
+    color: #2563ebFF;
+}
+.price-card ul{
+padding: 20px 0;
+}
+.price-card ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333333FF;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.price-card button{
+    font-size: 14px;
+    width: 100%;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #2563ebFF;
+    padding: 12px 107.33px;
+    border: 1px solid #2563ebFF;
+    border-radius: 8px;
+}
+
+/* Pro Pricing */
+ .pro{
+    background: #0D1B2A;
+    color:#ffffff;
+}
+.pro p{
+    color: #ffffff50;
+}
+.pro h4{
+    color:#93c5fdFF;;
+}
+.pro h1{
+    color: #ffffff;
+}
+.pro ul li{
+    color: #ffffff80;
+}
+
+.pro button{
+    background-color: #2563ebFF;
+    color: #ffffff;
+}
+
+
+
+/* Hackathon Section */
+
+
+.innovation{
+    max-width:1100px;
+    margin:80px auto;
+    padding:60px;
+    background:#102133f8;
+    border-radius:15px;
+    display:grid;
+    grid-template-columns:1fr 1.2fr;
+    gap:30px;
+}
+
+.left{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:18px;
+}
+
+.left h3{
+    color:#fff;
+    letter-spacing:2px;
+    font-size:14px;
+}
+
+.left h2{
+    color:#fff;
+    font-size:40px;
+}
+
+.left p{
+    color:#ddd;
+    line-height:1.6;
+}
+
+.left a{
+    width:max-content;
+    padding:12px 22px;
+    background:#fff;
+    color:#0D1B2A;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+/* Right section  */
+
+.right{
+    display:grid;
+    grid-template-columns:1fr 1.3fr;
+    gap:18px;
+}
+
+.card{
+    background:#fff;
+    padding:22px;
+    border-radius:14px;
+
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.card h3{
+    color:#0D1B2A;
+}
+
+.card p{
+    color:#555;
+    line-height:1.5;
+}
+
+.last{
+    grid-column:1/3;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.last a{
+    background:#0D1B2A;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+}
+
